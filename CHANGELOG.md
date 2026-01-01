@@ -26,6 +26,7 @@
     - FlipBoard Simon (by @jamisonderek)
   - GPIO/FlipperHTTP:
     - FlipMap (by @jblanked)
+    - FlipTelegram (by @jblanked)
     - Free Roam (by @jblanked)
   - GPIO/GPS: [NMEA] Nearby Files (by @Stichoza)
   - GPIO/Sensors: [MH-Z19] CO2 Logger (by @harryob2)
@@ -42,7 +43,9 @@
     - Space Playground (by @alanfortlink)
     - Video Player (by @LTVA1)
   - NFC:
+    - Amiibo Toolkit (by @Firefox2100)
     - NFC-Eink (by @RebornedBrain)
+    - NFC Login (by @Play2BReal)
     - SaFlip (by @aaronjamt)
   - RFID: Simultaneous UHF RFID Reader (by @haffnerriley)
   - Sub-GHz:
@@ -52,6 +55,7 @@
     - Sub Analyzer (by @RocketGod-git)
     - Sub-GHz Scheduler (by @shalebridge, fixes by @xMasterX)
   - Tools:
+    - CAN Tools (by @MatthewKuKanich)
     - FlipCrypt (by @Tyl3rA)
     - IconEdit (by @rdefeo)
     - Programmer Calculator (by @armixz)
@@ -188,6 +192,7 @@
   - Fix slashes in prefilled filename (by @WillyJL)
   - Handle PPS request in ISO14443-4 layer (by @WillyJL)
 - FBT: Fix redundant decl for apps using an icon disabled in API (by @WillyJL)
+- CLI: Fix missing cleanup for subghz chat on region restricted frequencies (by @WillyJL)
 - UL: Sub-GHz: Fix crash in add manually menu (by @xMasterX)
 - Clangd: Add clangd parameters in IDE agnostic config file (by @WillyJL)
 - OFW: GUI: Fix Number Input Save Icon (by @zinongli)
